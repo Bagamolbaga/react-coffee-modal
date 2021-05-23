@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="back">
-        <i class="fas fa-arrow-left"></i>
+        <i className="fas fa-arrow-left"></i>
       </div>
       <img
         className="header__coffee-img"
@@ -25,7 +25,7 @@ const Header = () => {
             name="minus"
             onClick={countHandler}
           >
-            <i class="fas fa-minus"></i>
+            <i className="fas fa-minus"></i>
           </button>
           <span className="header__counts_btn_count">{count}</span>
           <button
@@ -33,7 +33,7 @@ const Header = () => {
             name="plus"
             onClick={countHandler}
           >
-            <i class="fas fa-plus"></i>
+            <i className="fas fa-plus"></i>
           </button>
         </div>
       </div>

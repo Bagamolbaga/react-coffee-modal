@@ -1,2 +1,2 @@
-# react-coffee-modal
+# React-cofee-modal
 Created with CodeSandbox
